@@ -1,0 +1,333 @@
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem;
+   }
+   
+   h1 {
+    background-color: #1abc9c;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+   }
+   
+   .command {
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   
+   .command h2 {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+   }
+   
+   .command p {
+    color: #fff;
+    margin-bottom: 1rem;
+   }
+   
+   code {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: black;
+   }
+
+
+   .Help {
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .Start {
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .RMDIR {
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+
+   .MKDIR{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .CD {
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .CLS {
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .COPY {
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .DEL{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .MOVE{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .PING {
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .IPCONFIG {
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .TRACERT {
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .NETSTAT{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .TASKLIST{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .TASKKILL{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .SYSTEMINFO{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .SC{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .NET{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .FIND{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .XCOPY{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .TREE{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .CHKDSK{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .FORMAT{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .SFC{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .DISKPART{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .ROBOCOPY{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .ASSOC{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .FC{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .GPRESULT{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .RENAME{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .ATTRIB{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .DISM{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .FORMAT{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .GPUPDATE{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .LABEL{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .NETSH{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+
+   .NETUSER{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .POWERCFG{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .REG{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .SHUTDOWN{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .SYSTEMINFO{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .TIME{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .DATE{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .MORE{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   .SORT{
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   }
+   

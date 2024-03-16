@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Retro DOS Commands</title>
+ <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+ <h1>Retro DOS Commands</h1>
+ <div class="command">
+  <h2>Command: dir</h2>
+  <p>Description: Displays a list of files and subdirectories in a directory.</p>
+  <p>Example: <code class="hi">dir c:\</code> Displays the contents of the C drive.</p>
+  <p>DIR [drive:][path][filename] [/A[[:]attributes]] [/B] [/C] [/D] [/L] [/N]</p>
+ </div>
+ <div class="Help">
+    <h2>Command: Help</h2>
+    <p>Description: Provides Help information for Windows commands.</p>
+    <p>Example: <code>help dir</code> Displays Help information for the dir command.</p>
+ </div>
+ <div class="Start">
+    <h2>Command: Start</h2>
+    <p>Description: Starts a separate window to run a specified program or command.</p>
+    <p>Example: <code>start notepad</code> Opens Notepad in a new window.</p>
+ </div>
+ <div class="RMDIR">
+   <h2>Command: RMDIR</h2>
+   <p>Description: Removes (deletes) a directory.</p>
+   <p>Example: <code>rmdir /s /q foldername</code> Deletes the folder named 'foldername' and all its contents silently.</p>
+ </div>
+ <div class="MKDIR">
+   <h2>Command: MKDIR</h2>
+   <p>Description: Creates a directory.</p>
+   <p>Example: <code>mkdir newfolder</code> Creates a new folder named 'newfolder' in the current directory.</p>
+ </div>
+ <div class="CD">
+   <h2>Command: CD</h2>
+   <p>Description: Displays the name of or changes the current directory.</p>
+   <p>Example: <code>cd Documents</code> Changes the current directory to 'Documents'.</p>
+ </div>
+ <div class="CLS">
+   <h2>Command: CLS</h2>
+   <p>Description: Clears the screen.</p>
+   <p>Example: <code>cls</code> Clears the command prompt screen.</p>
+ </div>
+ <div class="COPY">
+   <h2>Command: COPY</h2>
+   <p>Description: Copies one or more files to another location.</p>
+   <p>Example: <code>copy file.txt C:\destination</code> Copies 'file.txt' to the 'C:\destination' folder.</p>
+ </div>
+ <div class="DEL">
+   <h2>Command: DEL</h2>
+   <p>Description: Deletes one or more files.</p>
+   <p>Example: <code>del file.txt</code> Deletes the file named 'file.txt'.</p>
+ </div>
+ <div class="MOVE">
+   <h2>Command: MOVE</h2>
+   <p>Description: Moves one or more files from one directory to another directory.</p>
+   <p>Example: <code>move file.txt C:\destination</code> Moves 'file.txt' to the 'C:\destination' folder.</p>
+ </div>
+ <div class="PING">
+   <h2>Command: PING</h2>
+   <p>Description: Sends ICMP Echo Request messages to a specified network host to verify its availability.</p>
+   <p>Example: <code>ping google.com</code> Sends ping requests to google.com to check network connectivity.</p>
+ </div>
+ <div class="IPCONFIG">
+   <h2>Command: IPCONFIG</h2>
+   <p>Description: Displays the IP configuration for all network adapters installed on the system.</p>
+   <p>Example: <code>ipconfig /all</code> Displays detailed information about all network adapters.</p>
+ </div>
+ <div class="TRACERT">
+   <h2>Command: TRACERT</h2>
+   <p>Description: Tracks the route that packets take across a network to a specified destination.</p>
+   <p>Example: <code>tracert google.com</code> Traces the route to google.com and displays network latency along the path.</p>
+ </div>
+ <div class="NETSTAT">
+   <h2>Command: NETSTAT</h2>
+   <p>Description: Displays active TCP connections, listening ports, and network statistics.</p>
+   <p>Example: <code>netstat -a</code> Displays all active TCP connections and listening ports.</p>
+ </div>
+ <div class="TASKLIST">
+   <h2>Command: TASKLIST</h2>
+   <p>Description: Lists all running processes on the computer.</p>
+   <p>Example: <code>tasklist</code> Lists all running processes with their process IDs (PID).</p>
+ </div>
+ <div class="TASKKILL">
+   <h2>Command: TASKKILL</h2>
+   <p>Description: Terminates one or more processes by process ID (PID) or image name.</p>
+   <p>Example: <code>taskkill /F /IM notepad.exe</code> Terminates Notepad process forcefully.</p>
+ </div>
+ <div class="SYSTEMINFO">
+   <h2>Command: SYSTEMINFO</h2>
+   <p>Description: Displays detailed configuration information about the computer's hardware and software.</p>
+   <p>Example: <code>systeminfo</code> Displays system information including OS version, processor, and memory.</p>
+ </div>
+ <div class="SC">
+   <h2>Command: SC</h2>
+   <p>Description: Communicates with the Service Control Manager and services.</p>
+   <p>Example: <code>sc query</code> Queries the status of all services on the system.</p>
+ </div>
+ <div class="NET">
+   <h2>Command: NET</h2>
+   <p>Description: Manages network resources.</p>
+   <p>Example: <code>net use</code> Displays information about mapped network drives.</p>
+ </div>
+ <div class="FIND">
+   <h2>Command: FIND</h2>
+   <p>Description: Searches for a text string in files.</p>
+   <p>Example: <code>find "searchtext" filename.txt</code> Searches for 'searchtext' in 'filename.txt'.</p>
+ </div>
+ <div class="XCOPY">
+   <h2>Command: XCOPY</h2>
+   <p>Description: Copies files and directory trees.</p>
+   <p>Example: <code>xcopy /s source destination</code> Copies all files and directories from source to destination.</p>
+ </div>
+ <div class="TREE">
+   <h2>Command: TREE</h2>
+   <p>Description: Graphically displays the directory structure of a drive or path.</p>
+   <p>Example: <code>tree /f</code> Displays the directory tree with filenames.</p>
+ </div>
+ <div class="CHKDSK">
+   <h2>Command: CHKDSK</h2>
+   <p>Description: Checks a disk and displays a status report.</p>
+   <p>Example: <code>chkdsk C:</code> Checks the disk C: for errors and displays the report.</p>
+ </div>
+ <div class="FORMAT">
+   <h2>Command: FORMAT</h2>
+   <p>Description: Formats a disk for use with Windows.</p>
+   <p>Example: <code>format D:</code> Formats the D: drive.</p>
+ </div>
+ <div class="SFC">
+   <h2>Command: SFC</h2>
+   <p>Description: Scans and repairs system files.</p>
+   <p>Example: <code>sfc /scannow</code> Scans and repairs system files immediately.</p>
+ </div>
+ <div class="DISKPART">
+   <h2>Command: DISKPART</h2>
+   <p>Description: Manages disks, partitions, and volumes.</p>
+   <p>Example: <code>diskpart</code> Opens the DiskPart tool for disk management.</p>
+ </div>
+ <div class="ROBOCOPY">
+   <h2>Command: ROBOCOPY</h2>
+   <p>Description: Robust File Copy for copying files and directories.</p>
+   <p>Example: <code>robocopy sourcedir destinationdir</code> Copies files and directories with advanced options.</p>
+ </div>
+ <div class="ASSOC">
+   <h2>Command: ASSOC</h2>
+   <p>Description: Displays or modifies file extension associations.</p>
+   <p>Example: <code>assoc .txt</code> Displays the file type associated with .txt extension.</p>
+ </div>
+ <div class="FC">
+   <h2>Command: FC</h2>
+   <p>Description: Compares two files or sets of files and displays the differences between them.</p>
+   <p>Example: <code>fc file1.txt file2.txt</code> Compares two text files and displays the differences.</p>
+ </div>
+ <div class="GPRESULT">
+   <h2>Command: GPRESULT</h2>
+   <p>Description: Displays the Resultant Set of Policy (RSoP) information for a user or computer.</p>
+   <p>Example: <code>gpresult /r</code> Displays RSoP summary of user and computer policies.</p>
+ </div>
+ <div class="RENAME">
+   <h2>Command: RENAME</h2>
+   <p>Description: Renames a file or directory.</p>
+   <p>Example: <code>rename oldname.txt newname.txt</code> Renames 'oldname.txt' to 'newname.txt'.</p>
+ </div>
+ <div class="ATTRIB">
+   <h2>Command: ATTRIB</h2>
+   <p>Description: Displays or changes file attributes.</p>
+   <p>Example: <code>attrib +r file.txt</code> Sets the read-only attribute for 'file.txt'.</p>
+ </div>
+ <div class="DISM">
+   <h2>Command: DISM</h2>
+   <p>Description: Deployment Image Servicing and Management tool for servicing Windows images.</p>
+   <p>Example: <code>dism /online /cleanup-image /restorehealth</code> Repairs the Windows image.</p>
+ </div>
+ <div class="FORMAT">
+   <h2>Command: FORMAT</h2>
+   <p>Description: Formats a disk for use with Windows.</p>
+   <p>Example: <code>format D:</code> Formats the D: drive.</p>
+ </div>
+ <div class="GPUPDATE">
+   <h2>Command: GPUPDATE</h2>
+   <p>Description: Refreshes local and Active Directory-based Group Policy settings.</p>
+   <p>Example: <code>gpupdate /force</code> Forces an immediate refresh of Group Policy settings.</p>
+ </div>
+ <div class="LABEL">
+   <h2>Command: LABEL</h2>
+   <p>Description: Creates, changes, or deletes the volume label of a disk.</p>
+   <p>Example: <code>label D: MyDrive</code> Sets the volume label of the D: drive to 'MyDrive'.</p>
+ </div>
+ <div class="NETSH">
+   <h2>Command: NETSH</h2>
+   <p>Description: Configures network settings locally or remotely.</p>
+   <p>Example: <code>netsh interface ipv4 show interfaces</code> Displays all IPv4 interfaces.</p>
+ </div>
+ <div class="NETUSER">
+   <h2>Command: NET USER</h2>
+   <p>Description: Adds or modifies user accounts, or displays user account information.</p>
+   <p>Example: <code>net user username password /add</code> Adds a new user account.</p>
+ </div>
+ <div class="POWERCFG">
+   <h2>Command: POWERCFG</h2>
+   <p>Description: Configures power settings on a system.</p>
+   <p>Example: <code>powercfg /hibernate off</code> Disables hibernation.</p>
+ </div>
+ <div class="REG">
+   <h2>Command: REG</h2>
+   <p>Description: Modifies the Windows registry.</p>
+   <p>Example: <code>reg query "HKEY_CURRENT_USER\Software\Microsoft"</code> Displays information about the specified registry key.</p>
+ </div>
+ <div class="SHUTDOWN">
+   <h2>Command: SHUTDOWN</h2>
+   <p>Description: Shuts down or restarts the computer.</p>
+   <p>Example: <code>shutdown /s /t 0</code> Shuts down the computer immediately.</p>
+ </div>
+ <div class="SYSTEMINFO">
+   <h2>Command: SYSTEMINFO</h2>
+   <p>Description: Displays detailed configuration information about the computer's hardware and software.</p>
+   <p>Example: <code>systeminfo</code> Displays system information including OS version, processor, and memory.</p>
+ </div>
+ <div class="TIME">
+   <h2>Command: TIME</h2>
+   <p>Description: Displays or sets the system time.</p>
+   <p>Example: <code>time</code> Displays the current system time.</p>
+ </div>
+ <div class="DATE">
+   <h2>Command: DATE</h2>
+   <p>Description: Displays or sets the system date.</p>
+   <p>Example: <code>date</code> Displays the current system date.</p>
+ </div>
+ <div class="TASKLIST">
+   <h2>Command: TASKLIST</h2>
+   <p>Description: Lists all running processes on the computer.</p>
+   <p>Example: <code>tasklist</code> Lists all running processes with their process IDs (PID).</p>
+ </div>
+ <div class="ASSOC">
+   <h2>Command: ASSOC</h2>
+   <p>Description: Displays or modifies file extension associations.</p>
+   <p>Example: <code>assoc .txt</code> Displays the file type associated with .txt extension.</p>
+ </div>
+ <div class="FC">
+   <h2>Command: FC</h2>
+   <p>Description: Compares two files or sets of files and displays the differences between them.</p>
+   <p>Example: <code>fc file1.txt file2.txt</code> Compares two text files and displays the differences.</p>
+ </div>
+ <div class="FIND">
+   <h2>Command: FIND</h2>
+   <p>Description: Searches for a text string in files.</p>
+   <p>Example: <code>find "searchtext" filename.txt</code> Searches for 'searchtext' in 'filename.txt'.</p>
+ </div>
+ <div class="MORE">
+   <h2>Command: MORE</h2>
+   <p>Description: Displays output one screen at a time.</p>
+   <p>Example: <code>more filename.txt</code> Displays the contents of 'filename.txt' one screen at a time.</p>
+ </div>
+ <div class="SORT">
+   <h2>Command: SORT</h2>
+   <p>Description: Sorts the input and displays the output.</p>
+   <p>Example: <code>sort filename.txt</code> Sorts the lines in 'filename.txt' and displays the result.</p>
+ </div>
+ <div class="XCOPY">
+   <h2>Command: XCOPY</h2>
+   <p>Description: Copies files and directory trees.</p>
+   <p>Example: <code>xcopy /s source destination</code> Copies all files and directories from source to destination.</p>
+ </div>
+ <!-- Add more command divs as needed -->
+</body>
+</html>
